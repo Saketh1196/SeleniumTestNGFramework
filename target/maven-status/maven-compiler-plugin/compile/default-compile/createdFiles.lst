@@ -1,0 +1,7 @@
+com\atuomation\pages\AccountPage.class
+com\atuomation\pages\SearchPage.class
+com\atuomation\pages\AccountSuccessPage.class
+com\atuomation\pages\RegisterPage.class
+com\atuomation\pages\HomePage.class
+com\atuomation\pages\LoginPage.class
+com\automation\utils\Utilities.class
