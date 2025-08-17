@@ -4,4 +4,6 @@ D:\eclipse-workspace\selenium-automation\src\main\java\com\atuomation\pages\Home
 D:\eclipse-workspace\selenium-automation\src\main\java\com\atuomation\pages\LoginPage.java
 D:\eclipse-workspace\selenium-automation\src\main\java\com\atuomation\pages\RegisterPage.java
 D:\eclipse-workspace\selenium-automation\src\main\java\com\atuomation\pages\SearchPage.java
+D:\eclipse-workspace\selenium-automation\src\main\java\com\automation\listeners\MyListeners.java
+D:\eclipse-workspace\selenium-automation\src\main\java\com\automation\utils\ExtentReporter.java
 D:\eclipse-workspace\selenium-automation\src\main\java\com\automation\utils\Utilities.java

@@ -1,25 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-08T22:24:49 CEST" name="Default suite" finished-at="2025-08-08T22:24:57 CEST" duration-ms="7396">
+  <suite started-at="2025-08-16T18:54:41 CEST" name="selenium-automation Suite" finished-at="2025-08-16T18:56:12 CEST" duration-ms="91517">
     <groups>
     </groups>
-    <test started-at="2025-08-08T22:24:49 CEST" name="Default test" finished-at="2025-08-08T22:24:57 CEST" duration-ms="7396">
-      <class name="com.automation.tests.Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@48f2bd5b]" started-at="2025-08-08T22:24:49 CEST" name="setup" finished-at="2025-08-08T22:24:55 CEST" duration-ms="5418" status="PASS">
+    <test started-at="2025-08-16T18:54:41 CEST" name="selenium-automation Test" finished-at="2025-08-16T18:56:12 CEST" duration-ms="91517">
+      <class name="com.automation.tests.Search">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:55:56 CEST" name="setup" finished-at="2025-08-16T18:56:00 CEST" duration-ms="4267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:3, instance:com.automation.tests.Login@48f2bd5b]" started-at="2025-08-08T22:24:55 CEST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2025-08-08T22:24:56 CEST" duration-ms="1627" status="PASS">
+        <test-method signature="verifySearchwithValidProduct()[pri:1, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:00 CEST" name="verifySearchwithValidProduct" finished-at="2025-08-16T18:56:01 CEST" duration-ms="1041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchwithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:01 CEST" name="tearDown" finished-at="2025-08-16T18:56:02 CEST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:02 CEST" name="setup" finished-at="2025-08-16T18:56:06 CEST" duration-ms="4211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchwithInvalidProduct()[pri:2, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:06 CEST" name="verifySearchwithInvalidProduct" finished-at="2025-08-16T18:56:07 CEST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchwithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:07 CEST" name="tearDown" finished-at="2025-08-16T18:56:07 CEST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:07 CEST" name="setup" finished-at="2025-08-16T18:56:11 CEST" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchwithoutProduct()[pri:3, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:11 CEST" name="verifySearchwithoutProduct" finished-at="2025-08-16T18:56:12 CEST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchwithoutProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Search@7eac9008]" started-at="2025-08-16T18:56:12 CEST" name="tearDown" finished-at="2025-08-16T18:56:12 CEST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.Search -->
+      <class name="com.automation.tests.Register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:54:41 CEST" name="setup" finished-at="2025-08-16T18:54:51 CEST" duration-ms="9179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringandAccountWithMandatoryFields()[pri:1, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:54:51 CEST" name="verifyRegisteringandAccountWithMandatoryFields" finished-at="2025-08-16T18:54:54 CEST" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringandAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:54:54 CEST" name="tearDown" finished-at="2025-08-16T18:54:54 CEST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:54:54 CEST" name="setup" finished-at="2025-08-16T18:55:00 CEST" duration-ms="5521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringandAccountByProvidingAllFields()[pri:2, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:00 CEST" name="verifyRegisteringandAccountByProvidingAllFields" finished-at="2025-08-16T18:55:05 CEST" duration-ms="5576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringandAccountByProvidingAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:05 CEST" name="tearDown" finished-at="2025-08-16T18:55:06 CEST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:06 CEST" name="setup" finished-at="2025-08-16T18:55:11 CEST" duration-ms="5187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountwithExistingEmail()[pri:3, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:11 CEST" name="verifyRegisteringAccountwithExistingEmail" finished-at="2025-08-16T18:55:14 CEST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountwithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:14 CEST" name="tearDown" finished-at="2025-08-16T18:55:14 CEST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:14 CEST" name="setup" finished-at="2025-08-16T18:55:19 CEST" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountwithoutFillingAnyDetails()[pri:4, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:19 CEST" name="verifyRegisteringAccountwithoutFillingAnyDetails" finished-at="2025-08-16T18:55:21 CEST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountwithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Register@3754a4bf]" started-at="2025-08-16T18:55:21 CEST" name="tearDown" finished-at="2025-08-16T18:55:21 CEST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.Register -->
+      <class name="com.automation.tests.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:21 CEST" name="setup" finished-at="2025-08-16T18:55:26 CEST" duration-ms="4902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:26 CEST" name="verifyLoginWithValidCredentials" finished-at="2025-08-16T18:55:28 CEST" duration-ms="1879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:28 CEST" name="tearDown" finished-at="2025-08-16T18:55:28 CEST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:28 CEST" name="setup" finished-at="2025-08-16T18:55:33 CEST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:33 CEST" name="verifyLoginWithInvalidCredentials" finished-at="2025-08-16T18:55:35 CEST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:35 CEST" name="tearDown" finished-at="2025-08-16T18:55:35 CEST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:35 CEST" name="setup" finished-at="2025-08-16T18:55:40 CEST" duration-ms="5019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:3, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:40 CEST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2025-08-16T18:55:43 CEST" duration-ms="2191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailandValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@48f2bd5b]" started-at="2025-08-08T22:24:56 CEST" name="tearDown" finished-at="2025-08-08T22:24:57 CEST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:43 CEST" name="tearDown" finished-at="2025-08-16T18:55:43 CEST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:43 CEST" name="setup" finished-at="2025-08-16T18:55:48 CEST" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:4, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:48 CEST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2025-08-16T18:55:49 CEST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:49 CEST" name="tearDown" finished-at="2025-08-16T18:55:50 CEST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:50 CEST" name="setup" finished-at="2025-08-16T18:55:55 CEST" duration-ms="4977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyloginwithoutCredentials()[pri:5, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:55 CEST" name="verifyloginwithoutCredentials" finished-at="2025-08-16T18:55:56 CEST" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginwithoutCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.tests.Login@1fa121e2]" started-at="2025-08-16T18:55:56 CEST" name="tearDown" finished-at="2025-08-16T18:55:56 CEST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.tests.Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- selenium-automation Test -->
+  </suite> <!-- selenium-automation Suite -->
 </testng-results>
