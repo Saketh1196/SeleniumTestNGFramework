@@ -139,8 +139,8 @@ Open after execution:
 test-output/ExtentReports/extentReport.html
 ```
 screenshots of the report:
-![screenshot](./test-output(ExtentReports/TestReport_1)
-![screenshot](./test-output(ExtentReports/TestReport_2)
+![screenshot](/test-output(ExtentReports/TestReport_1)
+![screenshot](/test-output(ExtentReports/TestReport_2)
 
 --- 
 
